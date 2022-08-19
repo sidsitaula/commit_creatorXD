@@ -9,7 +9,7 @@ os.system("git checkout main")
 while(i<=10):
     
 
-    os.system(f"touch pfile_{i}.py")
+    os.system(f"New-Item pfile_{i}.py")
     os.system(f"git add .")
     os.system(f'git commit -m "Added file {i}"')
     os.system(f"git push origin main")
