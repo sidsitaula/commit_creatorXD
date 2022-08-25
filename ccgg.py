@@ -4,7 +4,7 @@ i=0
 
 
 #write main code here 
-while(i<=15):
+while(i<=13):
     
 
     os.system(f"echo Hello_{i} world> Hello_{i}.txt")
